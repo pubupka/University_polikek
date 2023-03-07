@@ -93,7 +93,7 @@ namespace Human
 
         public class Student : Human
         {
-            public Dictionary<string, string[]> letters; //предмет - оценка, препод   //так удобно делать выборки по долгам, проверять, если ключ == 2, то выводить чо просят
+            public Dictionary<string, string[]> letters; //предмет - оценка, препод   //так все ключи будут уникальными
             static public List<Student> Constract(List<Student> student, string surname, string birthday)
             {
                 Student person = new Student();
